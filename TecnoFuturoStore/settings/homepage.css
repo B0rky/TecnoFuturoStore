@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+}
+
+/* navBar */
+.navBar {
+    width: 100vw;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 100;
+}
+    .navBar #NBImg {
+        width: 68px;
+        height: 68px;
+        background: white;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .navBar div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+        .navBar div .HPNL1, .HPNL2 {
+            width: 150px;
+            height: 38px;
+            border-radius: 50px;
+            border: none;
+            background-color: ghostwhite;
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .navBar div .HPNL1:hover, .HPNL2:hover {
+            background-color: aqua;
+            color: ghostwhite;
+        }
+
+/* Principal Content */
+.homePrinc {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+    /* Lateral Bars CSS */
+    .homePrinc .social {
+        width: 80px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: auto;
+    }
+
+    .homePrinc .actualPage {
+        width: 80px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 100px 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 40px;
+        left: auto;
+    }
+        .homePrinc .actualPage h1 {
+            width: max-content;
+            rotate: 90deg;
+            font-size: 18px;
+        }
+
+
+/* ---------- SLides - Central CSS ---------- */
+.central {
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vh;
+    transition: all 0.5s ease-in-out;
+}
+    .central .HPCS1 {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .central .HPCS1 img {
+            width: 300px;
+            height: max-content;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+        /* filter: grayscale(100%)*/
+    .central .HPCS2 {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+        .HPCS2 div {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+            .HPCS2 div img {
+                width: 240px;
+                filter: grayscale(100%);
+                border-radius: 50%;
+            }
+            .HPCS2 div img:nth-of-type(1), .HPCS2 div img:nth-of-type(3) {
+                width: 200px;
+            }
+        .HPCS2 .HPCS2H2 {
+            font-size: 40px
+        }
+        .HPCS2 .HPCS2P {
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .HPCS2 .HPCS2B {
+            max-width: 240px;
+            height: 60px;
+            border-radius: 40px;
+            font-size: 20px;
+            font-weight: 600;
+            background: white;
+            color: rgb(0, 9, 13);
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        .HPCS2 .HPCS2B:hover {
+            max-width: 252px;
+            color: aqua;
+        }
+    .central .HPCS3 {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+        .central .HPCS3 .HPCS2R {
+            background-color: rgb(31, 31, 31);
+            margin: 80px;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            border-radius: 25px;
+        }
+            .central .HPCS3 .HPCS2R form {
+
+            }
+
+
+
+
+

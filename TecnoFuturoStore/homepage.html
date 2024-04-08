@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - TecnoFuturoStore</title>
+
+
+    <link rel="stylesheet" href="/settings/style.css">
+    <link rel="stylesheet" href="/settings/homepage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <header>
+
+        <nav class="navBar">
+
+            <img src="" alt="" id="NBImg">
+
+            <div>
+                <button class="HPNL1" id="HPNL1" onclick="buttonOneHP()"></button>
+                <button class="HPNL2" id="HPNL2" onclick="buttonTwoHP()"></button>
+            </div>
+
+        </nav>
+
+        <section class="homePrinc">
+
+            <!-- Izquierda -->
+            <div class="social">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+
+            <!-- Central -->
+                <!-- Changes with JS / homePage.js -->
+            <div class="central" id="central">
+
+                <!-- Slide One -->
+                <section class="HPCS1">
+
+                    <img src="" alt="" id="HPCS1Img">
+
+                </section>
+
+                <!-- Slide Two -->
+                <section class="HPCS2">
+                        <h1>______________________________________________________________________________________________________</h1>
+                        <div>
+                            <img src="" alt="" class="HPCS2Img1" id="HPCS2Img1">
+                            <img src="" alt="" class="HPCS2Img2" id="HPCS2Img2">
+                            <img src="" alt="" class="HPCS2Img3" id="HPCS2Img3">
+                        </div>
+                        <h1>______________________________________________________________________________________________________</h1>
+
+                        <h2 class="HPCS2H2" id="HPCS2H2"></h2>
+
+                        <p class="HPCS2P" id="HPCS2P"></p>
+
+                        <div class="HPCS2B" id="HPCS2B"></div>
+
+                </section>
+
+                <!-- Slide Three -->
+                <section class="HPCS3">
+
+                    <div class="HPCS2L" id="HPCS2L">
+                        <h2></h2>
+                        <p></p>
+                        <h3></h3>
+                        <p></p>
+                    </div>
+
+                    <div class="HPCS2R" id="HPCS2R">
+                        <h2>Formulario de Contacto</h2>
+                        <form id="formulario-contacto">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required><br><br>
+                            
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" required><br><br>
+                            
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                            
+                            <label for="contacto">Contacto</label>
+                            <input type="email" id="contacto" name="contacto" required><br><br>
+                            
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <!-- Derecha -->
+            <div class="actualPage">
+                <h1 id="HPAPH1"></h1>
+            </div>
+
+        </section>
+
+    </header>
+
+    <!-- TESTING -->
+    <script src="/settings/script.js"></script>
+    <!-- OFICIAL -->
+    <script src="/JS/homePage.js"></script>
+    <script src="/JS/form.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+</body>
+</html>
+<!-- <a href="http://www.freepik.com">Designed by coolvector / Freepik</a> -->

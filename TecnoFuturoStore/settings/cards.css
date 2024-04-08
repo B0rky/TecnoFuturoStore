@@ -1,0 +1,281 @@
+/*-- SMALL TARGET CSS --*/
+.smallTarget {
+    width: 100%;
+    height: 178px;
+    border: 2.2px #6d6d6d solid;
+    border-radius: 2px;
+    background: rgba(58, 57, 66, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    padding: 22px;
+    overflow: hidden;
+    box-shadow: 0 0 30px #000000ec;
+
+    transition: all 0.5s;
+}
+
+.smallTarget:hover {
+    width: 105%;
+    box-shadow: 0 0 30px #7b7b7bec;
+    cursor: pointer;
+}
+    /*-- LADO IZQUIERDO --*/
+    .TL {
+        height: 140px;
+        display: grid;
+        grid-template-rows: 1fr 0.5fr 1fr;
+        overflow: hidden;
+    }
+        .TL div:first-of-type {
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+        }
+            .TL div:first-of-type h3 {
+                margin-left: 10px;
+                font-size: 18px;
+            }
+
+        .TL div:last-of-type {
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            width: 100%;
+        }
+            .TL div:last-of-type h2 {
+                width: max-content;
+                font-size: 18px;
+            }
+            /*-- Agregar Al Carrito --*/
+            .TL div:last-of-type div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+            }
+                .TL div:last-of-type div img {
+                    width: 18px;
+                    cursor: pointer;
+                }
+                .TL div:last-of-type div p {
+                    font-size: 8px;
+                    cursor: pointer;
+                }
+
+    /*-- LADO DERECHO --*/
+    .TR {
+        width: 100px;
+        height: 100px;
+    }
+        .TR img {
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+            margin-top: -40px;
+        }
+/*-- BIG TARGET CSS --*/   
+.bigTarget {
+    width: 100%;
+    height: 320px;
+    border: 2.2px #6d6d6d solid;
+    border-radius: 2px;
+    background: rgba(58, 57, 66, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 30px #000000ec;
+
+    transition: all 0.5s;
+}
+.bigTarget:hover {
+    width: 105%;
+    box-shadow: 0 0 30px #7b7b7bec;
+    cursor: pointer;
+}
+    .bigTarget * {
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /*-- SIMULACIÓN DE BARRA DE NAVEGACIÓN  --*/
+    .bigTarget .navTar5 {
+        display: grid;
+        grid-template-columns: 0.5fr 2.5fr 1fr;
+    }
+        .bigTarget .navTar5 .ItemCircle {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 2px solid #6d6d6d;
+            background: #42a4ba;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+
+        .bigTarget .navTar5 ul {
+            display: flex;
+            list-style: none;
+            font-size: 10px;
+            gap: 8px;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .bigTarget .navTar5 div:last-of-type {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            gap: 5px;
+        }
+            .bigTarget .navTar5 div:last-of-type img {
+                width: 15px;
+            }
+            .bigTarget .navTar5 div:last-of-type p {
+                font-size: 12px;
+            }
+            
+ /*-- SIMULACIÓN DE BARRA DE NAVEGACIÓN  --*/
+    .bigTarget .navTar6 {
+        display: grid;
+        grid-template-columns: 0.5fr 2.5fr 1fr;
+    }
+        .bigTarget .navTar6 .ItemCircle {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 2px solid #6d6d6d;
+            background: #42a4ba;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+
+        .bigTarget .navTar6 ul {
+            display: flex;
+            list-style: none;
+            font-size: 10px;
+            gap: 8px;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .bigTarget .navTar6 div:last-of-type {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            gap: 5px;
+        }
+            .bigTarget .navTar6 div:last-of-type img {
+                width: 15px;
+            }
+            .bigTarget .navTar6 div:last-of-type p {
+                font-size: 12px;
+            }
+
+
+    /*-- PRINCIPAL CONTENT --*/
+    .bigTarget .targetContent {
+        display: flex;
+        flex-direction: column;
+    }
+        .bigTarget .targetContent div:first-of-type {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            align-content: center;
+            text-align: justify;
+        }
+            .bigTarget .targetContent div:first-of-type div:first-of-type {
+                padding-left: 22%;
+                display: flex;
+                flex-direction: column;
+            }
+                .bigTarget .targetContent div:first-of-type div:first-of-type h2 {
+                    width: max-content;
+                    font-size: 25px;
+                }
+                .bigTarget .targetContent div:first-of-type div:first-of-type h4 {
+                    color: #42a4ba;
+                    margin-left: -20px;
+                }
+
+            .bigTarget .targetContent div:first-of-type div:last-of-type {
+                height: 200px;
+                overflow: hidden;
+            }
+                .bigTarget .targetContent div:first-of-type div:last-of-type img {
+                    width: 200px;
+                    object-fit: cover;
+                }
+
+        /*-- PARTE BAJA DE LA TARJETA --*/
+        .bigTarget .targetContent div:last-of-type {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+
+        }
+            .bigTarget .targetContent div:last-of-type div {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .bigTarget .targetContent div:last-of-type div:nth-of-type(1) {
+                display: flex;
+                flex-direction: row;
+                gap: 5px;
+                font-size: 10px;
+            }
+                .bigTarget .targetContent div:last-of-type div:nth-of-type(1) img {
+                    width: 18px;
+                }
+                .bigTarget .targetContent div:last-of-type div:nth-of-type(2) img {
+                    rotate: 90deg;
+                }
+            .bigTarget .targetContent div:last-of-type div:nth-of-type(3) {
+                display: flex;
+                flex-direction: row;
+            }
+                .bigTarget .targetContent div:last-of-type div:nth-of-type(3) .numberX {
+                    color: rgba(97, 35, 222, 0.658);
+                    font-family: "Anton", sans-serif;
+                    font-size: 15px;
+                }
+                .bigTarget .targetContent div:last-of-type div:nth-of-type(3) .chargeBar {
+                    width: 100%;
+                    height: 3px;
+                    background: #ffffffec;
+                    border-radius: 3px;
+                }
+                .bigTarget .targetContent div:last-of-type div:nth-of-type(3) .numberY {
+                    color: rgba(35, 166, 222, 0.741);
+                    font-family: "Anton", sans-serif;
+                    font-size: 15px;
+                }
+
+
+
+
+/*-- Desplegable Cards CSS --*/
+.desplegableCardLoaded {
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}

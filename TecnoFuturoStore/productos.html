@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos-TecnoFuturoStore</title>
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/settings/style.css">
+    <link rel="stylesheet" href="/settings/animation.css">
+    <link rel="stylesheet" href="/settings/cards.css">
+    <link rel="stylesheet" href="/settings/navBar.css">
+
+</head>
+
+<body>
+
+    <!-- Barra De Navegación -->
+    <nav class="navBar">
+
+        <!-- Icono De Menú -->
+        <div class="menu" id="menu">
+            <img src="/settings/img/menu.png" alt="" id="menuBtn">
+        </div>
+
+        <!-- Menú Desplegable - Circular - Inicio -->
+        <!-- Active - Despliega Opciones -->
+        <!-- Inactive - Cierra El Despliegue -->
+        <section class="desplegable inactive" id="despMen">
+
+            <ul>
+                <li><a href="/homepage.html">Inicio</a></li>
+                <li id="subdsbtn">Productos <img src="/settings/img/flecha-correcta.png" alt="Desplegar Información"></li>
+                <!-- Lista Desplegable De Productos - Inicio -->
+                <li class="itemDesplegable inactive" id="subMenu">
+                    <div>
+                        <ul class="subDesplegable inactive" id="subList">
+                            <li>Accesorios de escritorio</li>
+                            <li>Accesorios para PC</li>
+                            <li>Accesorios de celular</li>
+                            <li>Otros...</li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- Lista Desplegable De Productos - Fin -->
+                <li>Categorias</li>
+                <li>Contacto</li>
+            </ul>
+
+        </section>
+         <!-- Menú Desplegable - Circular - Fin -->
+
+        <h1>Productos</h1>
+
+    </nav>
+
+
+    <setion class="principal" id="princ">
+
+        <!-- Tarjetas Altas -->
+            <!-- Changes for fixed Targets with JS / upperTargets.js -->
+        <section class="upperTarget" id="UpTar">
+
+            <!-- Tarjeta N-1 -->
+            <div class="target1 smallTarget" id="targ1">
+
+                <!-- Izquierda -->
+                <div id="T1L" class="TL">
+                    <div>
+                        <p id="T1L_PMark"></p>
+                        <h3 id="T1L_HCash"></h3>
+                    </div>
+
+                    <div>
+                        <!-- Esto es una separación -->
+                        <h1 class="backLetter">Mouse</h1>
+                    </div>
+
+                    <div>
+                        <h2 id="T1L_HProduct"></h2>
+                        <div>
+                            <img src="/settings/img/anadir-a-la-cesta.png" alt="añadir a la cesta" id="shopCart">
+                            <p>AÑADIR AL CARRO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Derecha -->
+                <div id="T1R" class="TR">
+                    <img src="" alt="MouseGamerImg" id="ACI1">
+                </div>
+
+            </div>
+
+            <!-- Tarjeta N-2 -->
+            <div class="target2 smallTarget" id="targ2">
+
+                <!-- Izquierda -->
+                <div id="T2L" class="TL">
+                    <div>
+                        <p id="T2L_PMark"></p>
+                        <h3 id="T2L_HCash"></h3>
+                    </div>
+
+                    <div>
+                        <!-- Esto es una separación -->
+                        <h1 class="backLetter">Confort</h1>
+                    </div>
+
+                    <div>
+                        <h2 id="T2L_HProduct"></h2>
+                        <div>
+                            <img src="/settings/img/anadir-a-la-cesta.png" alt="añadir a la cesta" id="shopCart">
+                            <p>AÑADIR AL CARRO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Derecha -->
+                <div id="T2R" class="TR">
+                    <img src="" alt="" id="ACI2">
+                </div>
+
+            </div>
+
+            <!-- Tarjeta N-3 -->
+            <div class="target3 smallTarget" id="targ3">
+
+                <!-- Izquierda -->
+                <div id="T3L" class="TL">
+                    <div>
+                        <p id="T3L_PMark"></p>
+                        <h3 id="T3L_HCash"></h3>
+                    </div>
+
+                    <div>
+                        <!-- Esto es una separación -->
+                        <h1 class="backLetter">Calidad</h1>
+                    </div>
+
+                    <div>
+                        <h2 id="T3L_HProduct"></h2>
+                        <div>
+                            <img src="/settings/img/anadir-a-la-cesta.png" alt="añadir a la cesta" id="shopCart">
+                            <p>AÑADIR AL CARRO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Derecha -->
+                <div id="T3R" class="TR">
+                    <img src="" alt="" id="ACI3">
+                </div>
+
+            </div>
+
+            <!-- Tarjeta N-4 -->
+            <div class="target4 smallTarget" id="targ4">
+
+                <!-- Izquierda -->
+                <div id="T4L" class="TL">
+                    <div>
+                        <p id="T4L_PMark"></p>
+                        <h3 id="T4L_HCash"></h3>
+                    </div>
+
+                    <div>
+                        <!-- Esto es una separación -->
+                        <h1 class="backLetter">Teclado</h1>
+                    </div>
+
+                    <div>
+                        <h2 id="T4L_HProduct"></h2>
+                        <div>
+                            <img src="/settings/img/anadir-a-la-cesta.png" alt="añadir a la cesta" id="shopCart">
+                            <p>AÑADIR AL CARRO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Derecha -->
+                <div id="T4R" class="TR">
+                    <img src="" alt="" id="ACI4">
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- Tarjetas Bajas -->
+            <!-- Change Target's With JS / downTargets.js -->
+        <section class="downTargets" id="doTar">
+
+            <!-- Tarjeta N-5 -->
+            <div class="target5 bigTarget" id="tar5">
+
+                <!-- Parte Alta Tarjeta -->
+                <div class="navTar5" id="navTar5">
+
+                    <div class="ItemCircle">
+                        <p class="numberItem" id="numItmC1"></p>
+                    </div>
+
+                    <ul>
+                        <li>Comodidad</li>
+                        <li>Sonido envolvente</li>
+                        <li>Bloqueo de ruido exterior</li>
+                    </ul>
+
+                    <div>
+                        <img src="/settings/img/usuario.png" alt="">
+                        <p>Para todo Usuario</p>
+                    </div>
+
+                </div>
+
+                <!-- Contenido De La Tarjeta -->
+                <div class="targetContent">
+
+                    <div>
+                        <!-- Izquierda -->
+                        <div>
+                            <h2 id="DT1Title"></h2>
+                            <h4 id="DT1Price"></h4>
+                        </div>
+
+                        <h1 class="backLetter">Audifonos</h1>
+
+                        <!-- Derecha -->
+                        <div>
+                            <img src="" alt="" id="DT1Img">
+                        </div>
+
+                    </div>
+
+                    <!-- Parte Baja Tarjeta -->
+                    <div>
+
+                        <!-- Añadir Al Carrito -->
+                        <div>
+                            <img src="/settings/img/anadir-a-la-cesta.png" alt="">
+                            <h4>AÑADIR AL CARRO</h4>
+                        </div>
+
+                        <!-- Imagen De Flecha -->
+                        <div>
+                            <img src="/settings/img/flecha-correcta.png" alt="Desplegar Información">
+                        </div>
+
+                        <!-- Barra Cargando -->
+                        <div>
+                            <div class="numberX" id="numX1"> 1 </div>
+                            <div class="chargeBar" id="charBar1"></div>
+                            <div class="numberY" id="numY1"> 4 </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- Tarjeta N-6 -->
+            <div class="target6 bigTarget" id="tar6">
+
+                <!-- Parte Alta Tarjeta -->
+                <div class="navTar6" id="navTar6">
+
+                    <div class="ItemCircle">
+                        <p class="numberItem" id="numItmC1"></p>
+                    </div>
+
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div>
+                        <img src="/settings/img/usuario.png" alt="">
+                        <p>Para todo Usuario</p>
+                    </div>
+
+                </div>
+
+                <!-- Contenido De La Tarjeta -->
+                <div class="targetContent">
+
+                    <div>
+                        <!-- Izaquierda -->
+                        <div>
+                            <h2 id="DT2Title"></h2>
+                            <h4 id="DT2Price"></h4>
+                        </div>
+
+                        <h1 class="backLetter">Audifonos</h1>
+
+                        <!-- Derecha -->
+                        <div>
+                            <img src="" alt="" id="DT2Img">
+                        </div>
+
+                    </div>
+
+                    <!-- Parte Baja Tarjeta -->
+                    <div>
+
+                        <!-- Añadir Al Carrito -->
+                        <div>
+                            <img src="/settings/img/anadir-a-la-cesta.png" alt="">
+                            <h4>AÑADIR AL CARRO</h4>
+                        </div>
+
+                        <!-- Imagen De Flecha -->
+                        <div>
+                            <img src="/settings/img/flecha-correcta.png" alt="">
+                        </div>
+
+                        <!-- Barra Cargando -->
+                        <div>
+                            <div class="numberX" id="numX2"></div>
+                            <div class="chargeBar" id="charBar2"></div>
+                            <div class="numberY" id="numY2"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <section class="desplegableCardLoaded" id="DCL">
+             
+            <div class="DCLContent" id="DCLC">
+
+                <h1 class="DCLCProduct" id="DCLCPro"></h1>
+                <img src="" alt="" id="DCLCImg">
+                <h2 class="DCLCPrice" id="DCLCPri"></h2>
+
+            </div>
+
+            <div class="DCLCDescription">
+
+                <h3 class="DCLCDT"id="DCLCDT"></h3>
+                <p class="DCLCDP"id="DCLCDP"></p>
+
+                <h3 class="DCLCDSpecification"id="DCLCDS"></h3>
+                <p class="DCLCDSP"id="DCLCDSP"></p>
+
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
+
+    </setion>
+
+    <!-- TESTING -->
+    <script src="/settings/script.js"></script>
+    <!-- OFICIAL -->
+    <script src="/JS/navBar.js"></script>
+    <script src="/JS/upperTargets.js"></script>
+    <script src="/JS/downTargets.js"></script>
+
+    
+
+</body>
+
+</html>

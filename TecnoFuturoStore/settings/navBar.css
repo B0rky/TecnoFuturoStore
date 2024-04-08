@@ -1,0 +1,78 @@
+.navBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+    width: 100vw;
+    height: 100px;
+    align-content: space-around;
+    text-align: center;
+    gap: 300px;
+}   
+        /*-- Menu Desplegable --*/
+        .navBar .menu img {
+            width: 40px;
+            cursor: pointer;
+        }
+        .navBar .desplegable {
+            width: 280px;
+            height: 190px;
+            display: flex;
+            flex-direction: column;
+
+            position: absolute;
+            top: 14.5%;
+            left: 25%;
+            z-index: 5;
+
+            background-color: rgba(44, 43, 58);
+            border: 2px whitesmoke solid;
+            padding: 20px;
+            box-shadow: 0 0 46px #424972;
+            transition: all 0.5s ease-in-out;
+        }
+            .navBar .desplegable ul {
+                height: 135px;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+                .navBar .desplegable ul li {
+                    width: 100%;
+                    transition: all 0.3s ease-in-out;
+                    cursor: pointer;
+                }
+                .navBar .desplegable ul li:hover {
+                    color: #42a4ba;
+                    transition: all 0.5s ease-in-out;
+                }
+                    /*-- SubMenu Desplegable --*/
+                    .navBar .desplegable ul img {
+                        width: 14px;
+                        margin-bottom: -2px;
+                    }
+                    .navBar .desplegable ul li div {
+                        width: 200px;
+                        height: 275px;
+                        position: absolute;
+                        top: 30px;
+                        right: -250px;
+                        z-index: 5;
+
+                        background-color: rgba(44, 43, 58);
+                        border: 2px whitesmoke solid;
+                        padding: 20px;
+                        box-shadow: 0 0 46px #424972;
+                        transition: all 0.5s ease-in-out;
+                    }
+                        .navBar .desplegable ul li div ul {
+                            height: 100%;
+                        }
+                            .navBar .desplegable ul li div ul li {
+                                transition: all 0.5s ease-in-out;
+                            }
+                            .navBar .desplegable ul li div ul li:hover {
+                                color: #42a4ba;
+                                transition: all 0.5s ease-in-out;
+                            }

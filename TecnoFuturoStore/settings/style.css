@@ -1,0 +1,76 @@
+/*-- MASTER CSS --*/
+/*-- GENERAL CSS --*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ccd0cf;
+
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inactive {
+    display: none;
+    visibility: hidden;
+}
+
+.backLetter {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(57, 55, 65);
+    font-size: 82px;
+
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 8px;
+    z-index: -1; 
+}
+
+/*-- SPECIFY CSS --*/
+    /* DISTIBUCIÓN DE LA PAGINA */
+        /*-- BODY --*/
+        body {
+            height: auto;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            background-color: hsl(232, 11%, 15%);
+        }
+            /*-- NAVBAR --*/
+            .navBar {
+                width: 100vw;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            /*-- Principal Content --*/
+            .principal {
+                width: 100vw;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 70px;
+            }
+                .upperTarget {
+                    width: 80vw;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    gap: 30px;
+                }
+                .downTargets {
+                    width: 80vw;
+                    min-height: 720px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    align-content: center;
+                    margin-top: 60px;
+                    gap: 45px;
+                }
